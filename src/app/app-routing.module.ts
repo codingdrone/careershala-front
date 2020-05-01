@@ -9,7 +9,7 @@ export const Approutes: Routes = [
         path: '',
         component: FullComponent,
         children: [
-            { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+            { path: '', redirectTo: '/component', pathMatch: 'full' },
             {
                 path: 'dashboard',
                 loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
@@ -22,6 +22,6 @@ export const Approutes: Routes = [
     },
     {
         path: '**',
-        redirectTo: '/dashboard'
+        redirectTo: '/component'
     }
 ];

@@ -19,18 +19,23 @@ export class CardsComponent implements OnInit {
            let course = new Course();
            course.id =  item.id;
            course.title = item.title;
+           course.duration=  item.duration;
+          course.days= item.days;
+          course.price=  item.price;
+          course.expert=  item.expert;
+          course.description=  item.description;
+          course.target= item.target;
+          course.topics=  item.topics;
+          course.Valueproposition= item.Valueproposition;
+
            course.startDates = item.startDates;
-           course.topics=  item.topics;
            course.promoVideo=  item.promoVideo;
            course.promoImage=  item.promoImage;
            course.educator=  item.educator;
 
            course.weeklyHours=  item.weeklyHours;
            course.image=  item.image;
-           course.duration=  item.duration;
            course.overview=  item.overview;
-           course.description=  item.description;
-           course.fee=  item.fee;
            return course;
           });
           console.log('courses- ');

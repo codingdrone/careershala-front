@@ -1,0 +1,19 @@
+.content-pic{
+    background-size: contain;
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+.blog-content{
+  background-size: contain;
+  height: auto;
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.blank {
+  position: relative;
+  margin-bottom: 400px
+}

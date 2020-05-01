@@ -10,8 +10,11 @@
                     <img class="card-img-top img-responsive" src="{{course.image}}" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">{{course.title}}</h4>
-                        <p class="card-text">{{course.description}}</p>
-                        <a href="#" class="btn btn-primary">See Details</a>
+                        <p [innerHTML]="course.description"></p>
+                        <div class="row">
+                        <div class="col-md-5" style="margin-right:0px;">  <p style="font-size:14px;font-weight:400;">{{course.duration}}</p></div>
+                        <div class="col-md-7" style="margin-right:0px;"><p style="font-size:14px;font-weight:400;"> {{course.days}}</p></div></div>
+                        <a href="/component/cards-details/{{course.id}}" class="btn btn-primary">See Details</a>
                     </div>
                 </div>
                 <!-- Card -->

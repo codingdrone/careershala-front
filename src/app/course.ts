@@ -14,8 +14,14 @@ export class Course{
         id  :   string
      };
      _id :  string;
+     key :  string;
      startDates :  string;
      topics :  string;
+     days: string;
+     price: string;
+     expert: string;
+     Valueproposition: string;
+     target:string;
      promoVideo :  string;
      promoImage :  string;
      extraBenefits :  string;
@@ -30,6 +36,5 @@ export class Course{
      createdAt :  string;
      updatedAt :  string;
      __v :number;
-     fee :  string;
      id :  string
 }

@@ -15,7 +15,9 @@ import { NgbdtimepickerBasicComponent } from './timepicker/timepicker.component'
 import { NgbdtypeheadBasicComponent } from './typehead/typehead.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './card/card.component';
+import {CardDetailComponent} from './card-detail/card-detail.component';
 import { ToastComponent } from './toast/toast.component';
+import { Component } from '@angular/core';
 
 export const ComponentsRoutes: Routes = [
 	{
@@ -44,7 +46,33 @@ export const ComponentsRoutes: Routes = [
 						{ title: 'Courses' }
 					]
 				}
-			},
+      },
+      {
+				path: 'cards2',
+				component: CardsComponent,
+				data: {
+					title: 'Courses',
+					urls: [
+						{ title: 'Dashboard', url: '/dashboard' },
+						{ title: 'ngComponent' },
+						{ title: 'Courses' }
+					]
+				}
+      },
+
+			{
+				path: 'cards-details/:key',
+				component: CardDetailComponent,
+				data: {
+					title: 'Course Details',
+					urls: [
+						{ title: 'Dashboard', url: '/dashboard' },
+						{ title: 'ngComponent' },
+						{ title: 'Course Details' }
+					]
+				}
+      },
+
 			{
 				path: 'pagination',
 				component: NgbdpaginationBasicComponent,

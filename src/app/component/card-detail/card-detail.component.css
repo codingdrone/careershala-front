@@ -1,6 +1,6 @@
 .content-pic{
     background-size: contain;
-    height: 500px;
+    height: 450px;
     background-repeat: no-repeat;
 
 }
@@ -24,4 +24,10 @@
 
 .contain {
   padding-top: 20px;
+}
+
+.container-enroll{
+  padding-top: 2px;
+  padding-bottom: 20px;
+  text-align: center;
 }

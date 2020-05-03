@@ -12,7 +12,7 @@ import { NgbTabChangeEvent } from '@ng-bootstrap/ng-bootstrap';
 export class CardDetailComponent implements OnInit {
   course: Course = null;
   courses:Course[] = [];
-  currentJustify = 'start';
+  currentJustify = 'center';
   constructor(private route: ActivatedRoute,private courseservice:CourseService) { }
 
   ngOnInit(): void {
@@ -32,6 +32,7 @@ export class CardDetailComponent implements OnInit {
              let course = new Course();
              course.id =  item.id;
              course.title = item.title;
+             course.key= item.key;
              course.description=  item.description;
              course.duration=  item.duration;
             course.days= item.days;

@@ -31,8 +31,6 @@ export class Course{
      value_proposition: string;
      student_category:string;
      outcomes:string;
-
-
      key :  string;
      startDates :  string;
      promoVideo :  string;

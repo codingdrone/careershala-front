@@ -36,6 +36,7 @@ export class CardsComponent implements OnInit {
            course.educator=  item.educator;
            course.image=  item.image;
            course.overview=  item.overview;
+           course.key=item.key;
            return course;
           });
           console.log('courses- ');

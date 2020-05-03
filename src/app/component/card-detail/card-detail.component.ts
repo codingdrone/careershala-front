@@ -22,7 +22,7 @@ export class CardDetailComponent implements OnInit {
 
       this.course = new Course();
       this.course.key = params.key;
-      this.course.id = params.key;
+      this.course.id = params.id;
 
 
       this.courseservice.getCourse(params.key).subscribe(response =>
@@ -58,7 +58,7 @@ export class CardDetailComponent implements OnInit {
             });
             console.log('courses- ');
             console.log(this.courses);
-            this.course=this.courses.filter(a => a.id == params.key)[0];
+            this.course=this.courses.filter(a => a.id == params.id)[0];
             console.log('course- ');
             console.log(this.course);
         });

@@ -114,7 +114,7 @@
    },
 "_id":"5ea5319a21f5cd05a95f3b90",
 "title":"Critical thinking & problem solving",
-"key":"critical-thinking-&-problem-solving",
+"key":"critical-thinking-problem-solving",
 "description":"Discover practical data mining and learn to mine your own data using the popular Weka workbench",
 "image":"../../../assets/images/courses/critical thinking.jpeg",
 "duration":"5 weeks",
@@ -162,7 +162,7 @@
    },
 "_id":"5ea5319a21f5cd05a95f3b90",
 "title":"Basic coding using scratch (AI/ML)",
-"key":"basic-coding-using-scratch-(AI/ML)",
+"key":"basic-coding-using-scratch-AI-ML",
 "description":"Discover practical data mining and learn to mine your own data using the popular Weka workbench",
 "duration":"5 weeks",
 "days":"3 hrs per week",
@@ -210,7 +210,7 @@
    },
 "_id":"5ea5319a21f5cd05a95f3b90",
 "title":"Vedic maths & puzzle solving",
-"key":"vedic-maths-&-puzzle-solving",
+"key":"vedic-maths-puzzle-solving",
 "description":"Discover practical data mining and learn to mine your own data using the popular Weka workbench",
 "duration":"5 weeks",
 "days":"3 hrs per week",
@@ -289,7 +289,7 @@
 
  },
 {
-  
+
    "educator":
    {
       "confirmed":true,
@@ -307,7 +307,7 @@
    },
 "_id":"5ea5319a21f5cd05a95f3b90",
 "title":"Social etiquettes & social emotional learning ",
-"key":"social-etiquettes-&-social-emotional-learning",
+"key":"social-etiquettes-social-emotional-learning",
 "description":"Discover practical data mining and learn to mine your own data using the popular Weka workbench",
 "duration":"5 weeks",
 "days":"3 hrs per week",
@@ -355,7 +355,7 @@
    },
 "_id":"5ea5319a21f5cd05a95f3b90",
 "title":"Mind development & brain training",
-"key":"mind-development-&-brain-training",
+"key":"mind-development-brain-training",
 "description":"Discover practical data mining and learn to mine your own data using the popular Weka workbench",
 "duration":"5 weeks",
 "days":"3 hrs per week",
@@ -451,7 +451,7 @@
    },
 "_id":"5ea5319a21f5cd05a95f3b90",
 "title":"Social profiling, resume & interview prep",
-"key":"social-profiling,-resume-&-interview-prep",
+"key":"social-profiling-resume-interview-prep",
 "description":"Discover practical data mining and learn to mine your own data using the popular Weka workbench",
 "duration":"5 weeks",
 "days":"3 hrs per week",

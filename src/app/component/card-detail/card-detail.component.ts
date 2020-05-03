@@ -32,23 +32,25 @@ export class CardDetailComponent implements OnInit {
              let course = new Course();
              course.id =  item.id;
              course.title = item.title;
+             course.description=  item.description;
              course.duration=  item.duration;
             course.days= item.days;
+            course.language=item.language;
+            course.certification=item.certification;
             course.price=  item.price;
             course.expert=  item.expert;
-            course.description=  item.description;
-            course.target= item.target;
+            course.detailed_description=item.detailed_description;
+            course.benefits=item.benefits;
+            course.target_audience= item.target_audience;
             course.topics=  item.topics;
-            course.Valueproposition= item.Valueproposition;
+            course.value_proposition= item.value_proposition;
 
-             course.startDates = item.startDates;
-             course.promoVideo=  item.promoVideo;
-             course.promoImage=  item.promoImage;
-             course.educator=  item.educator;
-             course.requirements=  item.requirements;
-
-
-             course.weeklyHours =  item.weeklyHours;
+             //course.startDates = item.startDates;
+             //course.promoVideo=  item.promoVideo;
+             //course.promoImage=  item.promoImage;
+             //course.educator=  item.educator;
+             //course.requirements=  item.requirements;
+             //course.weeklyHours =  item.weeklyHours;
              course.image =  item.image;
              course.overview =  item.overview;
              return course;

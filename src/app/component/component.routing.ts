@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
 
 export const ComponentsRoutes: Routes = [
 	{
-    path: '',
+		path: '',
 		children: [
 			{
 				path: 'progressbar',
@@ -34,9 +34,9 @@ export const ComponentsRoutes: Routes = [
 						{ title: 'Progressbar' }
 					]
 				}
-      },
-      {
-				path: '',
+			},
+			{
+      	path: '',
 				component: CardsComponent,
 				data: {
 					title: 'Courses',

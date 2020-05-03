@@ -3,7 +3,7 @@
 <div class="course">
   
   <div class="row">
-    <h1 style="font-weight:200;" class="title">{{course.title}}</h1>
+    <h1 style="font-weight:200; font-weight: 500;" class="title">{{course.title}}</h1>
   </div>
 
 
@@ -41,10 +41,10 @@
 </div>
 
 
-<div class="row">
+<div class="row" style="padding-left: 40px;">
 
-  <div class="col-md-3">
-    <div class="card card-outline-primary">
+  <div class="col-md-2">
+    <div class="card ">
         <div class="card-header">
             <h4 class="m-b-0 text-white">Duration</h4></div>
         <div class="card-body">
@@ -53,8 +53,8 @@
         </div>
     </div>
   </div>
-  <div class="col-md-3">
-    <div class="card card-outline-primary">
+  <div class="col-md-2">
+    <div class="card ">
         <div class="card-header">
             <h4 class="m-b-0 text-white">Days</h4></div>
         <div class="card-body">
@@ -63,21 +63,31 @@
         </div>
     </div>
   </div>
-  <div class="col-md-3">
-    <div class="card card-outline-primary">
+  <div class="col-md-2">
+    <div class="card">
         <div class="card-header">
-            <h4 class="m-b-0 text-white">Learn</h4></div>
+            <h4 class="m-b-0 text-white">Language</h4></div>
         <div class="card-body">
-            <p class="card-text">With supporting </p>
+            <p class="card-text">{{course.language}}</p>
+
+        </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="m-b-0 text-white">Certification</h4></div>
+        <div class="card-body">
+            <p class="card-text">{{course.certification}}</p>
 
         </div>
     </div>
   </div>
 
-  <div class="col-md-3">
-    <div class="card card-outline-primary">
+  <div class="col-md-2">
+    <div class="card ">
         <div class="card-header">
-            <h4 class="m-b-0 text-white">Price</h4></div>
+            <h4 class="m-b-0 text-white">Offer Price</h4></div>
         <div class="card-body">
             <p class="card-text">{{course.price}}</p>
 
@@ -89,71 +99,93 @@
 <!-- tabs -->
 <div class="row blank">
 
-  <ngb-tabset [justify]="currentJustify">
+  <ngb-tabset [justify]="currentJustify" >
 
-    <ngb-tab title="Overview">
+    <ngb-tab title="Detailed Description" style="color:#00A79D ;">
       <ng-template ngbTabContent>
-        <p>{{course.overview}}</p>
+        <p class="contain">{{course.detailed_description}}</p>
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Topics">
+    <ngb-tab title="Course Topics" style="color:#00A79D ;" >
 
       <ng-template ngbTabContent>
-        <p>
+        <p class="contain">
           {{course.topics}}
         </p>
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Start Date">
+    <ngb-tab title="Efforts"  >
       <ng-template ngbTabContent>
-        <p>
+        <p class="contain">
 
-        {{course.startdate}}
-
-        </p>
-      </ng-template>
-    </ngb-tab>
-    <ngb-tab title="Requirements">
-      <ng-template ngbTabContent>
-        <p>
-
-        {{course.requirements}}
+        {{course.efforts}}
 
         </p>
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Educator">
-      <ng-template ngbTabContent>
-        <p>
 
-        {{course.educator}}
+    <ngb-tab title="Expert">
+      <ng-template ngbTabContent>
+        <p class="contain">
+
+        {{course.expert}}
 
         </p>
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Try it">
+    <ngb-tab title="Target Audience" >
       <ng-template ngbTabContent>
-        <p>
+        <p class="contain">
 
-        {{course.tryit}}
+        {{course.target_audience}}
 
         </p>
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="MoreCourses">
+    <ngb-tab title="Value Proposition"  >
       <ng-template ngbTabContent>
-        <p>
+        <p class="contain">
 
-        {{course.morecourses}}
+        {{course.value_proposition}}
 
         </p>
       </ng-template>
     </ngb-tab>
+
+    <ngb-tab title="Student Category"  >
+      <ng-template ngbTabContent>
+        <p class="contain">
+
+        {{course.student_category}}
+
+        </p>
+      </ng-template>
+    </ngb-tab>
+
+    <ngb-tab title="Benefits">
+      <ng-template ngbTabContent>
+        <p class="contain">
+
+        {{course.benefits}}
+
+        </p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="Outcomes">
+      <ng-template ngbTabContent>
+        <p class="contain">
+
+        {{course.outcomes}}
+
+        </p>
+      </ng-template>
+    </ngb-tab>
+
 
   </ngb-tabset>
 

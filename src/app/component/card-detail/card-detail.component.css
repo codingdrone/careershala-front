@@ -15,5 +15,13 @@
 }
 .blank {
   position: relative;
-  margin-bottom: 400px
+  font-weight: 300;
+}
+
+.card-header{
+  background-color: #00A79D;
+}
+
+.contain {
+  padding-top: 20px;
 }

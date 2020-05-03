@@ -5,16 +5,16 @@ Email: niravjoshi87@gmail.com
 File: scss
 */
 
-$themecolor: #398bf7;
-$themecolor-dark: #028ee1;
-$topbar: #fff;
+$themecolor: rgb(0,167,157);
+$themecolor-dark: rgb(0,167,157);
+$topbar:rgb(255, 255, 255);
 $sidebar:#242a33;
 $sidebar-text: #687384;
 $sidebar-icons: #424a56;
 $sidebar-dark: #1c2128;
 $sidebar-alt:#1c2128;
-$themecolor-alt: #26c6da;
-$topbar-alt: #398bf7;
+$themecolor-alt: rgb(0,167,157);
+$topbar-alt: rgb(0,167,157);
 .defaultdark {
 /*******************
 /*Top bar
@@ -23,10 +23,14 @@ $topbar-alt: #398bf7;
         background: $topbar;
         .top-navbar .navbar-header .navbar-brand .light-logo {
             display: none;
+            height: auto;
+            
         }
+    
         .top-navbar{
             .navbar-nav>.nav-item>span {
                 color:$themecolor;
+                size:1%;
             }
         }
         .navbar-light .navbar-nav .nav-item > {

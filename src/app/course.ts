@@ -14,25 +14,31 @@ export class Course{
         id  :   string
      };
      _id :  string;
-     key :  string;
-     startDates :  string;
-     topics :  string;
+     title :  string;
+     description :  string;
+     image :  string;
+     duration :  string;
      days: string;
+     effort:string;
+     language:string;
+     certification:string;
      price: string;
      expert: string;
-     Valueproposition: string;
-     target:string;
+     detailed_description:  string;
+     benefits :  string;
+     target_audience:string;
+     topics :  string;
+     value_proposition: string;
+     student_category:string;
+     outcomes:string;
+
+
+     key :  string;
+     startDates :  string;
      promoVideo :  string;
      promoImage :  string;
-     extraBenefits :  string;
-     weeklyHours :  string;
      requirements :  string;
-     duration :  string;
-     title :  string;
      overview :  string;
-     accreditation :  string;
-     image :  string;
-     description :  string;
      createdAt :  string;
      updatedAt :  string;
      __v :number;

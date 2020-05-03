@@ -24,7 +24,7 @@ export class Course{
      certification:string;
      price: string;
      expert: string;
-     detailed_description:  string;
+     content:  string;
      benefits :  string;
      target_audience:string;
      topics :  string;

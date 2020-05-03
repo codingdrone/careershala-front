@@ -40,7 +40,7 @@ export class CardDetailComponent implements OnInit {
             course.certification=item.certification;
             course.price=  item.price;
             course.expert=  item.expert;
-            course.detailed_description=item.detailed_description;
+            course.content=item.content;
             course.benefits=item.benefits;
             course.target_audience= item.target_audience;
             course.topics=  item.topics;

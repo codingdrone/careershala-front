@@ -26,12 +26,11 @@
 
 
 
-
     <div class="col-md-6">
       <div class="container-2">
-            <div class="row content-pic">
-              <div class="course-image" ><img [src] = "course.image" /></div>
-            </div>
+        <div class="row content-pic">
+          <div><img [src] = "course.image" class="img-responsive" /></div>
+        </div>
       </div>
 
           <!-- <div class="meta-info">
@@ -103,7 +102,7 @@
 </div>
 
 <div class="container-enroll">
-  <a href="https://pages.razorpay.com/careershala-careernaksha" target="_blank" rel="noopener"  class="btn" style="background-color: rgb(0,167,157); color:white; font-weight: 500;">Enroll Now</a>
+  <a href="https://pages.razorpay.com/careershala-careernaksha"  target="_blank" rel="noopener" class="btn" style="background-color: rgb(0,167,157); color:white; font-weight: 500;">Enroll Now</a>
 </div>
 
 <!-- tabs -->
@@ -113,7 +112,7 @@
 
     <ngb-tab title="Detailed Description" style="color:#00A79D ;">
       <ng-template ngbTabContent>
-        <p class="contain">{{course.content}}</p>
+        <p class="contain">{{course.detailed_description}}</p>
       </ng-template>
     </ngb-tab>
 

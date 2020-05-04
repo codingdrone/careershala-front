@@ -7,7 +7,7 @@
     overflow-y: scroll;
     position: relative;
     overflow: hidden;
-    
+
 
 }
 
@@ -29,7 +29,7 @@
 
 
 .main-banner{
-   
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,20 +60,17 @@
   }
 
   .enroll{
-    
         background-color: #55bfba;
         color: white;
-        padding: 7px 10px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-weight: 600;
         border-radius: 5px;
-        margin-left: 30%;
+
       }
       .enroll:hover{
         border:1px solid #fff;
-    background-color: #55bfba;
-    color: #fff;
+        background-color: #55bfba;
+        color: #fff;
       }
-  

@@ -5,7 +5,7 @@
       <!-- Row -->
       <div class="row">
           <!-- column -->
-          <div *ngFor="let course of courses" class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          <div *ngFor="let course of courses" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
               <!-- Card -->
               <div class="card">
                   <img class="card-img-top img-responsive" src="{{course.image}}" alt="Card image cap">
@@ -14,14 +14,23 @@
                       <p [innerHTML]="course.description"></p>
                       <div class="row">
 
-                      <div class="col-sm-5" style="margin-right:0px;">
+                      <div class="col-6" style="margin-right:0px;">
                          <p style="font-size:14px;font-weight:400;">{{course.duration}}</p></div>
-                      <div class="col-sm-7" style="margin-right:0px;">
+                      <div class="col-6" style="margin-right:0px;">
                         <p  style="font-size:14px;font-weight:400;"> {{course.days}}</p>
                       </div>
                     </div>
-                      <a href="component/cards-details/{{course.id}}/{{course.key}}" class="btn" style="background-color: rgb(0,167,157); color:white; font-weight: 500;">See Details</a>
-                      <a href="https://pages.razorpay.com/careershala-careernaksha"  target="_blank" rel="noopener" class="btn" style="color:rgb(0,167,157); font-weight: 500; margin-left: 150px;">Enroll</a>
+                    <div class="row">
+
+                      <div class="col-6" >
+                        <a href="component/cards-details/{{course.id}}/{{course.key}}" class="btn btn-block" style="background-color: rgb(0,167,157); color:white; font-weight: 500;">See Details</a>
+                        </div>
+                      <div class="col-6" >
+                        <a href="https://pages.razorpay.com/careershala-careernaksha"  target="_blank" rel="noopener" class="btn btn-block" style="color:rgb(0,167,157); font-weight: 500;">Enroll</a>
+                      </div>
+                    </div>
+
+
                   </div>
               </div>
               <!-- Card -->

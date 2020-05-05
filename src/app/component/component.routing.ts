@@ -62,7 +62,7 @@ export const ComponentsRoutes: Routes = [
       },
 
 			{
-				path: 'course-details/:id/:key',
+				path: 'course-details/:key',
 				component: CardDetailComponent,
 				data: {
 					title: 'Course Details',

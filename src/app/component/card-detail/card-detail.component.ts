@@ -58,7 +58,7 @@ export class CardDetailComponent implements OnInit {
             });
             console.log('courses- ');
             console.log(this.courses);
-            this.course=this.courses.filter(a => a.id == params.id)[0];
+            this.course=this.courses.filter(a => a.key == params.key)[0];
             console.log('course- ');
             console.log(this.course);
         });

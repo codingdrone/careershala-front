@@ -47,18 +47,7 @@ export const ComponentsRoutes: Routes = [
 					]
 				}
       },
-			{
-				path: 'cards',
-				component: CardsComponent,
-				data: {
-					title: 'Courses',
-					urls: [
-						{ title: 'Dashboard', url: '/dashboard' },
-						{ title: 'ngComponent' },
-						{ title: 'Courses' }
-					]
-				}
-      },
+
       {
 				path: 'cards2',
 				component: CardsComponent,
@@ -73,7 +62,7 @@ export const ComponentsRoutes: Routes = [
       },
 
 			{
-				path: 'cards-details/:id/:key',
+				path: 'course-details/:id/:key',
 				component: CardDetailComponent,
 				data: {
 					title: 'Course Details',

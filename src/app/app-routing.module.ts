@@ -9,19 +9,19 @@ export const Approutes: Routes = [
         path: '',
         component: FullComponent,
         children: [
-            { path: '', redirectTo: '/component', pathMatch: 'full' },
+            { path: '', redirectTo: '/courses', pathMatch: 'full' },
             {
                 path: 'dashboard',
                 loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
             },
             {
-                path: 'component',
+                path: 'courses',
                 loadChildren: () => import('./component/component.module').then(m => m.ComponentsModule)
             }
         ]
     },
     {
         path: '**',
-        redirectTo: '/component'
+        redirectTo: '/courses'
     }
 ];

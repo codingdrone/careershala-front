@@ -3,6 +3,8 @@ import { CourseService } from '../../course.service';
 import { Course } from '../../course';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgbTabChangeEvent } from '@ng-bootstrap/ng-bootstrap';
+import { Meta } from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-card-detail',
@@ -13,10 +15,18 @@ export class CardDetailComponent implements OnInit {
   course: Course = null;
   courses:Course[] = [];
   currentJustify = 'center';
-  constructor(private route: ActivatedRoute,private courseservice:CourseService) { }
 
-  ngOnInit(): void {
-    this.route.params.subscribe(params => {
+  constructor(private route: ActivatedRoute,private courseService:CourseService,private meta: Meta, private titleService: Title) {
+
+    // this.meta.addTag({ name: 'description', content: 'Online live courses for school students, college students, graduates, professionals for practical skill based training through CareerShala'});
+    // this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
+    // this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
+    // this.setTitle('CareerShala | Online Live Courses | Practical Skill Training');
+
+  }
+
+    ngOnInit(): void {
+      this.route.params.subscribe(params => {
       console.log('params- ');
       console.log(params);
 
@@ -25,7 +35,7 @@ export class CardDetailComponent implements OnInit {
       this.course.id = params.id;
 
 
-      this.courseservice.getCourse(params.key).subscribe(response =>
+      this.courseService.getCourse(params.key).subscribe(response =>
         {
           this.courses = response.courses.map(item =>
           {
@@ -61,10 +71,23 @@ export class CardDetailComponent implements OnInit {
             this.course=this.courses.filter(a => a.key == params.key)[0];
             console.log('course- ');
             console.log(this.course);
+
+            this.meta.addTag({ name: 'description', content:'this.course.description' }, true);
+            this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
+            this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
+            this.setTitle(this.course.title);
+
         });
       })
+   }
 
+   public setTitle( newTitle: string) {
+      this.titleService.setTitle( newTitle );
+      window.scroll(0, 0);
+    }
 
-  }
+    scroll(){
+      window.scroll(0, 0);
+    }
   }
 

@@ -64,7 +64,9 @@
             "production": {
               "browserTarget": "admin-angular:build:production"
             }
-          }
+          },
+          "sslKey": "ssl/private.key",
+          "sslCert": "ssl/certificate.crt"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

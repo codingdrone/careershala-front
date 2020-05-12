@@ -57,7 +57,7 @@ export class CardDetailComponent implements OnInit {
             course.value_proposition= item.value_proposition;
 
             course.descriptionTag = item.descriptionTag;
-            course.keywordsTag= item.keywordsTag;
+            course.keywordTag= item.keywordTag;
             course.titleTag=  item.titleTag;
 
 
@@ -83,8 +83,8 @@ export class CardDetailComponent implements OnInit {
               `name='description'`
             );
             this.meta.updateTag(
-              { name: 'keywords', content:this.course.keywordsTag },
-              `name='keywords'`
+              { name: 'keyword', content:this.course.keywordTag },
+              `name='keyword'`
             );
             this.meta.updateTag(
               { name: 'title', content:this.course.titleTag },

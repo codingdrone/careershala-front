@@ -18,7 +18,7 @@ export class Course{
      content: string;
      description :  string;
      titleTag :  string;
-     keywordsTag: string;
+     keywordTag: string;
      descriptionTag :  string;
      image :  string;
      duration :  string;

@@ -56,6 +56,11 @@ export class CardDetailComponent implements OnInit {
             course.topics=  item.topics;
             course.value_proposition= item.value_proposition;
 
+            course.descriptionTag = item.descriptionTag;
+            course.keywordsTag= item.keywordsTag;
+            course.titleTag=  item.titleTag;
+
+
              //course.startDates = item.startDates;
              //course.promoVideo=  item.promoVideo;
              //course.promoImage=  item.promoImage;
@@ -72,9 +77,22 @@ export class CardDetailComponent implements OnInit {
             console.log('course- ');
             console.log(this.course);
 
-            this.meta.addTag({ name: 'description', content:'this.course.description' }, true);
-            this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
-            this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
+
+            this.meta.updateTag(
+              { name: 'description', content:this.course.descriptionTag },
+              `name='description'`
+            );
+            this.meta.updateTag(
+              { name: 'keywords', content:this.course.keywordsTag },
+              `name='keywords'`
+            );
+            this.meta.updateTag(
+              { name: 'title', content:this.course.titleTag },
+              `name='title'`
+            );
+           // this.meta.addTag({ name: 'description', content:'this.course.description' }, true);
+            //this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
+           // this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
             this.setTitle(this.course.title);
 
         });

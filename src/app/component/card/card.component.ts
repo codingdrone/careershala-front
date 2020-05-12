@@ -9,8 +9,7 @@ import { Course } from '../../course';
 export class CardsComponent implements OnInit {
   courses:Course[] = [];
   constructor(private courseService:CourseService) {
-  
-  
+
   }
 
 
@@ -22,6 +21,7 @@ export class CardsComponent implements OnInit {
         {
            let course = new Course();
            course.id =  item.id;
+           course.cardTitle= item.cardTitle;
            course.title = item.title;
            course.content = item.content;
              course.description=  item.description;

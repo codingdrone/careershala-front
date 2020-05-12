@@ -39,11 +39,11 @@ export const ComponentsRoutes: Routes = [
       	path: '',
 				component: CardsComponent,
 				data: {
-					title: 'Courses',
+					title: 'CareerShala | Online Live Courses | Practical Skill Training',
 					urls: [
 						{ title: 'Dashboard', url: '/dashboard' },
 						{ title: 'ngComponent' },
-						{ title: 'Courses' }
+						{ title: 'CareerShala | Online Live Courses | Practical Skill Training' }
 					]
 				}
       },

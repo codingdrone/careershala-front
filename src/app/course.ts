@@ -15,6 +15,7 @@ export class Course{
      };
      _id :  string;
      title :  string;
+     content: string;
      description :  string;
      image :  string;
      duration :  string;

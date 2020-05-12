@@ -93,7 +93,7 @@ export class CardDetailComponent implements OnInit {
            // this.meta.addTag({ name: 'description', content:'this.course.description' }, true);
             //this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
            // this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
-            this.setTitle(this.course.title);
+            this.setTitle(this.course.titleTag);
 
         });
       })

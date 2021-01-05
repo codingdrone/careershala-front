@@ -7,17 +7,17 @@
           <!-- column -->
           <div *ngFor="let course of courses" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
               <!-- Card -->
-              <div class="card">
+              <div class="card" style="background-color: rgb(255, 249, 242); height: 620px;">
                   <img class="card-img-top img-responsive" src="{{course.image}}" alt="Card image cap">
                   <div class="card-body">
-                      <h4 class="card-title">{{course.cardTitle}}</h4>
-                      <p [innerHTML]="course.content"></p>
+                      <h4 style="color: black; "class="card-title">{{course.cardTitle}}</h4>
+                      <p [innerHTML]="course.content" style="color:black; font-size: 15px;"></p>
                       <div class="row">
 
                       <div class="col-6" style="margin-right:0px;">
-                         <p style="font-size:14px;font-weight:400;">{{course.duration}}</p></div>
+                         <p style="font-size:14px;font-weight:400; color:black;">{{course.duration}}</p></div>
                       <div class="col-6" style="margin-right:0px;">
-                        <p  style="font-size:14px;font-weight:400;"> {{course.days}}</p>
+                        <p  style="font-size:14px;font-weight:400; color:black;"> {{course.days}}</p>
                       </div>
                     </div>
                     <div class="row">

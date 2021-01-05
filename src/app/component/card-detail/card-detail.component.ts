@@ -59,6 +59,7 @@ export class CardDetailComponent implements OnInit {
             course.descriptionTag = item.descriptionTag;
             course.keywordTag= item.keywordTag;
             course.titleTag=  item.titleTag;
+            course.outcomes= item.outcomes;
 
 
              //course.startDates = item.startDates;

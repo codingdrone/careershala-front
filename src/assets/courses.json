@@ -433,7 +433,7 @@
 "detailed_description":"",
 "Benefits":"The participants will be able to develop an ability to train their mind according to the requirement of the functional spaces that they enter into, so that they can grow in those spaces efficiently by efficient usage of their minds.",
 "target_audience":"Anyone who is facing problems in understanding the working of the environments they are currently in and thereby, training their brain according to those environments to give efficient results.",
-"topics":" Brain Basics  Interrelation between brain and body  Cognitive exhaustion  Cognitive distraction  How to improve attention  How to improve memory power  How to enhance concentration  Benefits of meditation ",
+"topics":"1. Brain Basics 2. Interrelation between brain and body 3. Cognitive exhaustion 4. Cognitive distraction 5. How to improve attention 6. How to improve memory power 7. How to enhance concentration 8. Benefits of meditation ",
 "value_proposition":"Our mind is our most powerful asset. Yet most of us face problems keeping our mind in control and training it according to our needs, which leads us to fail in giving the best possible results that we are capable of. This course helps people develop an ability to train their minds according to requirements and therefore, harness mind’s ability to fully bring in desired results.",
 "student_category":"From secondary students to professionals or others (housewives)",
 "outcomes":" Improvement in work efficiency  Relief from stress levels  Understanding of brain & body dynamics  Positive impacts of physical activity ",
@@ -562,6 +562,270 @@
 "id":"5ea5319a21f5cd05a95f3b99"
 
 
+},
+{
+   "educator":
+      {
+         "confirmed":true,
+         "blocked":false,
+         "userType":"Educator",
+         "_id":"5ea52daf21f5cd05a95f3b8f",
+         "username":"rajpal",
+         "email":"raj9006@gmail.com",
+         "provider":"local",
+         "createdAt":"2020-04-26T06:43:59.810Z",
+         "updatedAt":"2020-04-26T06:44:00.277Z",
+         "__v":0,
+         "role":"5e847b79b49e847e2185f846",
+         "id":"5ea52daf21f5cd05a95f3b8f"
+      },
+   "_id":"5ea5319a21f5cd05a95f3b81",
+   "cardTitle":"This Year Will Be The Year of IOS App Development",
+   "title":"You Will Never Think That Learning IOS App Development Could Be So Beneficial! But It Is!",
+   "content": "iPhone apps, custom-built or off-the-shelf, are available to suit all business needs. Despite the fact that the cost of iPhone app development is somewhat higher than other options available, iPhone apps are found to be more lucrative for businesses due to their assured market reach and better-paying clients. ",
+
+  "titleTag":"Master The Skills Of iOS App Development And Be Successful",
+  "descriptionTag":"iPhone apps, custom-built or off-the-shelf, are available to suit all business needs. Despite the fact that the cost of iPhone app development is somewhat higher than other options available, iPhone apps are found to be more lucrative for businesses due to their assured market reach and better-paying clients.",
+  "keywordTag":"ios app development, ios , apple, Apple , iPhone , iphone, iOS, Application,Development, Security.",
+
+
+   "key":"Master The Skills Of iOS App Development And Be Successful",
+   "description":"Apple’s market is a consolidated one. Nearly 89.8% iPhone users are using iOS 12, the latest version of OS. This is a good chunk of a user base and practically viable for any business to reach. Something that triggers them to turn towards a reputed iOS app development company.Besides, Low fragmentation in iOS also results in more scalable apps. And the newly introduced features keep on upscaling existing apps ",
+   "image":"../../../assets/images/courses/ios.jpg",
+   "duration":"12 weeks",
+   "days":"2 hours per week",
+  "effort":"5-6 hours per week",
+  "language":"English or hindi",
+  "certification":"Yes",
+  "price":"Rs.2500 ",
+  "expert":"Madhav Zala",
+  "detailed_description":"<p>Learn to clone projects from GitHub.</p> <p>Link design with code via IBActions and IBOutlets.</p><p>Learn to detect user interaction through UIButtons.</p><p>Understand and use Swift variables, constants and collection types.</p><p>Learn about printing and commenting in Swift.</p><p>Learn about randomisation in swift and range operators.</p><p>Learn to use Image Literals in code.</p><p>Learn to use Swift Playgrounds.</p><p>Understand the data type system and the primitive data types</p><p>such as Strings Ints and Doubles.</p> ",
+  "benefits":"<p>iPhone apps have a greater ROI than Android apps. A fact that adds on to the benefits of iOS App development, to a huge extent.</p><p>To get the best of the revenue generation opportunities from your iOS application development process, keeping an eye on the mistakes, tips and tricks, and other related information would be a big advantage. </p>",
+  "target_audience":"Anyone who craves to be a step ahead in iOS app development",
+  "topics":"<p>1.IOS/XCODE INTERFACE BUILDER</p><p> 2.INTRODUCTION TO IOS DEVELOPMENT</p><p> 3.IOS AUTO LAYOUT AND SETTING CONSTRAINTS</p><p> 4.READING AND USING APPLE DOCUMENTATION</p><p> 5. CONTROL FLOW AND OPTIONALS</p> ",
+  "value_proposition":"iPhone apps guarantee market visibility, profitability, and customer loyalty. This added to the low iPhone app development services time, low production costs and affordable maintenance, makes the mobile app development process very beneficial for the businesses. Businesses can piggyback on Apple’s legacy to secure a prominent place in the competitive app market. What more can you ask for!",
+  "student_category":"When it comes to how long does it take to build an app, iOS apps take nearly 28% less time than Android apps of the same specifications. This is because Android apps have to be tested across at least 20 devices with varying resolutions, screen sizes, and OS versions. Naturally, Android app’s development cycle is longer and you have to pay more for developing Android apps.",
+  "outcomes":"iPhone users are found to be tech-savvy and open-minded towards innovation. This presents businesses with numerous opportunities to craft challenging applications that can create disruption in markets. Businesses that opt for iPhone app development can become market leaders and stride ahead of competitors.",
+
+   "requirements":"# Who is the course for?\nThis course is aimed at anyone who deals in data. It involves no computer programming, although you need some experience with using computers for everyday tasks. High school maths should be more than enough and you’ll need an understanding of some elementary statistics concepts (means and variances).\n  \n  \n\n# What software or tools do you need?\n\nYou will download the free Weka software during Week 1. It runs on any computer, under Windows, Linux, or Mac. It has been downloaded millions of times and is being used all around the world.\n\n",
+   "overview":"\n#Learn how to mine your own data\n\nToday’s world generates more data than ever before! Being able to turn it into useful information is a key skill. This course introduces you to practical data mining using the Weka workbench. We’ll dispel the mystery that surrounds the subject. We’ll explain the principles of popular algorithms. We’ll show you how to use them in practical applications. You’ll get plenty of experience actually mining data during the course, and afterwards you’ll be well equipped to mine your own. Weka originated at the University of Waikato in NZ, and Ian Witten has authored a leading book on data mining.\n\n",
+   "accreditation":"certificate from..",
+   "createdAt":"2020-04-26T07:00:42.609Z",
+   "updatedAt":"2020-04-26T10:19:44.919Z",
+   "__v":0,
+   "id":"5ea5319a21f5cd05a95f3b90"
+
+
+},
+{
+   "educator":
+      {
+         "confirmed":true,
+         "blocked":false,
+         "userType":"Educator",
+         "_id":"5ea52daf21f5cd05a95f3b8f",
+         "username":"rajpal",
+         "email":"raj9006@gmail.com",
+         "provider":"local",
+         "createdAt":"2020-04-26T06:43:59.810Z",
+         "updatedAt":"2020-04-26T06:44:00.277Z",
+         "__v":0,
+         "role":"5e847b79b49e847e2185f846",
+         "id":"5ea52daf21f5cd05a95f3b8f"
+      },
+   "_id":"5ea5319a21f5cd05a95f3b86",
+   "cardTitle":"Why Learning Android App Development Can Actually Improve Your Health Condition!",
+   "title":"How Android App Development Is Going To Change Your Business Strategies",
+   "content": "Android has free software development tools like IDE Android Development Studio for the developer community that assists to reduce the cost of development. Even it requires comparatively lesser investment to entry. The development costs include only a few costs consist of the application development cost, hardware cost and testing cost for testing and deploying the Android mobile application. ",
+
+  "titleTag":"Learning Android App Development Can Be Addictive. Here's How You Can Get Yourself Hooked.",
+  "descriptionTag":" In-app advertising is the future of mobile advertising. To target the right audience at the right time, it offers the better opportunities. One can access the data and can be used for that makes the marketer have an ability to achieve the target.",
+  "keywordTag":"android app development, android app development course, learn android app development, android, app development, application, google developers, kotlin",
+
+
+   "key":"Why Learning Android App Development Can Actually Improve Your Health Condition!",
+   "description":" In-app advertising is the future of mobile advertising. To target the right audience at the right time, it offers the better opportunities. One can access the data and can be used for that makes the marketer have an ability to achieve the target. ",
+   "image":"../../../assets/images/courses/android.png",
+   "duration":"12 weeks",
+   "days":"2 hours per week",
+  "effort":"5-6 hours per week",
+  "language":"English or hindi",
+  "certification":"Yes",
+  "price":"Rs.2500 ",
+  "expert":"Hardik Trivedi and Neha jhakal",
+  "detailed_description":"<p>After using android phone and applications have you ever been like “I wish I could make one such application myself”? Don’t worry we have got you covered with our Android Development course. With this course, we aim to guide you in the friendliest way possible just like your friends helping you cover important topics a night before an exam.</p> ",
+  "benefits":"<p>While hiring an Android app Developer, one goes with all aspects whereby they can able to provide apps that are evenly responsive whether they are being used on a Smartphone or a tablet.</p><p>A mobile app development company in a way that it solves all business needs and one can complete the task at a remote location as well across all devices. This is the best way to cast a network worldwide and with every possible sector of the target audience.</p>",
+  "target_audience":"Today’s consumer",
+  "topics":"<p>1.About this course</p><p> 2.What you’ll learn</p><p> 3.Requirements</p><p> 4.Syllabus</p> ",
+  "value_proposition":"<p>Lesser Investment</p><p>We all know that Android has free software development tools like IDE Android Development Studio for the developer community that assists to reduce the cost of development. Even it requires comparatively lesser investment to entry. The development costs include only a few costs consist of the application development cost, hardware cost and testing cost for testing and deploying the Android mobile application.</p>",
+  "student_category":"",
+  "outcomes":"<p>Android App development company in India has seen growth as the increase in the number of apps. In-app advertising is the future of mobile advertising. To target the right audience at the right time, it offers the better opportunities. One can access the data and can be used for that makes the marketer have an ability to achieve the target.</p><p>Guaranteed this app which you’re going to make is not the one made by chintu its made by you as our experts only.</p>",
+
+   "accreditation":"certificate from..",
+   "createdAt":"2020-04-26T07:00:42.609Z",
+   "updatedAt":"2020-04-26T10:19:44.919Z",
+   "__v":0,
+   "id":"5ea5319a21f5cd05a95f3b90"
+
+
+},
+{
+   "educator":
+      {
+         "confirmed":true,
+         "blocked":false,
+         "userType":"Educator",
+         "_id":"5ea52daf21f5cd05a95f3b8f",
+         "username":"rajpal",
+         "email":"raj9006@gmail.com",
+         "provider":"local",
+         "createdAt":"2020-04-26T06:43:59.810Z",
+         "updatedAt":"2020-04-26T06:44:00.277Z",
+         "__v":0,
+         "role":"5e847b79b49e847e2185f846",
+         "id":"5ea52daf21f5cd05a95f3b8f"
+      },
+   "_id":"5ea5319a21f5cd05a95f3b82",
+   "cardTitle":"The Millionaire Guide On DBMS To Help You Get Rich.",
+   "title":"How DBMS Can Increase Your Profit!",
+   "content": "The only thing which finds its way everywhere say any programming language. The One who stores, processes, performs at ease is Database management system.",
+
+  "titleTag":"Everything You Need To Know About DBMS",
+  "descriptionTag":"The only thing which finds its way everywhere say any programming language. The One who stores, processes, performs at ease is Database management system.",
+  "keywordTag":"dbms, dbms tutorial, normalization ,functional dependency, acid properties in dbms,joins, transaction, selection, projection ,concurrency, database, management, systems",
+
+
+   "key":"Everything You Need To Know About DBMS",
+   "description":"Database Management System (DBMS) is a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.",
+   "image":"../../../assets/images/courses/DBMS1.jpg",
+   "duration":"6 weeks ",
+   "days":"2 hours a week",
+  "effort":"5-6 hours per week",
+  "language":"English or hindi",
+  "certification":"Yes",
+  "price":"Rs.2500 ",
+  "expert":"Asif patel",
+  "detailed_description":"<p>In a database, the users of the database can share the data among themselves. There are various levels of authorisation to access the data, and consequently the data can only be shared based on the correct authorisation protocols being followed. </p><p>Many remote users can also access the database simultaneously and share the data between themselves.</p> ",
+  "benefits":"<p>introduction towards to data security, redundancy,integrity and ACID prperties</p>",
+  "target_audience":"anyone who wants to develop and store the data in a database for the well development of his/her database or web application and upskill themselves.",
+  "topics":"<p>1.Little history about DBMS</p><p> 2.Relational query languages</p><p> 3.Basics about SQL</p><p> 4.Join</p><p> 5.Transaction and Security</p> <p>6.Query optimization</p><p>7.Database design</p>",
+  "value_proposition":"backend and trigger processing is what it takes to make it big in life. Enroll into the course to know and find out the need of this course and learning about basic database processing and querying.",
+  "student_category":"When it comes to how long does it take to build an app, iOS apps take nearly 28% less time than Android apps of the same specifications. This is because Android apps have to be tested across at least 20 devices with varying resolutions, screen sizes, and OS versions. Naturally, Android app’s development cycle is longer and you have to pay more for developing Android apps.",
+  "outcomes":"after enrolling in this course you’ll be able to process and play around with the databases.",
+
+   "accreditation":"certificate from..",
+   "createdAt":"2020-04-26T07:00:42.609Z",
+   "updatedAt":"2020-04-26T10:19:44.919Z",
+   "__v":0,
+   "id":"5ea5319a21f5cd05a95f3b90"
+
+
+},
+{
+   "educator":
+      {
+         "confirmed":true,
+         "blocked":false,
+         "userType":"Educator",
+         "_id":"5ea52daf21f5cd05a95f3b8f",
+         "username":"rajpal",
+         "email":"raj9006@gmail.com",
+         "provider":"local",
+         "createdAt":"2020-04-26T06:43:59.810Z",
+         "updatedAt":"2020-04-26T06:44:00.277Z",
+         "__v":0,
+         "role":"5e847b79b49e847e2185f846",
+         "id":"5ea52daf21f5cd05a95f3b8f"
+      },
+   "_id":"5ea5319a21f5cd05a95f3b83",
+   "cardTitle":"Never Underestimate The Influence Of Html Css",
+   "title":"Introducing A Revolutionary Method To Master Html Css",
+   "content": "HTML CSS are the backbones of any web development process. To get an uphold of web dev one should have atleast Basic glimpse and adequate knowledge of HTML CSS development.",
+
+  "titleTag":"Fully Utilize Html Css To Enhance Your Business",
+  "descriptionTag":"HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images. CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors",
+  "keywordTag":"html css, html, css, automatic image slider in html css, html cs tutorial, web development, web page, web, page site",
+
+
+   "key":"Fully Utilize Html Css To Enhance Your Business",
+   "description":"HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images. CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors.",
+   "image":"../../../assets/images/courses/HTML and CSS.jpeg",
+   "duration":"4 weeks ",
+   "days":"2 hours a week",
+  "effort":"5-6 hours per week",
+  "language":"English or hindi",
+  "certification":"Yes",
+  "price":"Rs.2500 ",
+  "expert":"Dhruvan Gandhi and Poojan Patel",
+  "detailed_description":"<p>Lots of websites use a content management system, like WordPress, which makes it possible for non-coders to add or edit content on the site.This is great, because even coders appreciate the 'separation of concerns' here. If you're editing content, you're just editing content. The theme and its underlying code remains safely untouched.Similarly, theme developers can update a theme's code safe in the knowledge that they won't be changing the site's content. However, there is a downside here. Namely: what if you want to add a page... that has two or three columns of content? Or create a new landing page that has a special 'Sign Up Now' button? At some point, anyone creating content for a WordPress website will feel frustrated at the limitations of the page (or post) editor—unless they know a little HTML and CSS. If you're comfortable with some basic HTML and CSS, you can switch to the 'Text' tab on the page or post editing screen and create whatever layout you wish. Need to fix a wonky table? Or put a border around one particular image? Or insert a 'Buy Now' button that connects to PayPal? All these tasks become simple when you know the basics of HTML and CSS. And once you've used a little HTML and CSS in that 'Text' tab... you might find yourself curious to see what other aspects of your WordPress site you can fine-tune.</p> ",
+  "benefits":"<p>You could work more effectively with digital designers and developers. You can rummage through other sites' code to see how it all works. You can build your own landing pages. You can create awesome pages for your portfolio or open your minds towards creativity.</p>",
+  "target_audience":"Anyone who has a zeal or wants to step in and know about web development.",
+  "topics":"<p>1.An Introduction to the Web Development</p><p> 2.Basics</p><p> 3.CSS</p><p> 4.Joining</p><p> 5.Publishing and Domain games</p>",
+  "value_proposition":"",
+  "student_category":"",
+  "outcomes":"You'll have more confidence, and might end up in an entirely new career. Learning a little bit of HTML and CSS now might not seem like the most important thing to do. But the benefits of learning something about code pile up over time. As you've seen from the points above, there are all kinds of situation where a little coding knowledge could save you time and money, or could enable you to contribute more to a team project.But the other key benefit is that your confidence will grow (alongside your knowledge) over time. It's difficult to avoid the web nowadays, no matter what work you do. And since the internet provides instantaneous communication and access to endless apps that boost your productivity, it's best to embrace it. And despite how complex some websites and apps might be overall, they are still built with the fundamental blocks of the web: HTML and CSS. So if you start learning just a little of these languages today, over time your knowledge will grow and increase your confidence with it. There are a surprising number of skilled WordPress developers who started out, maybe as little as one year ago, knowing nothing about code. But they had a spark of curiosity and they made time to follow it. If you do the same, you never know what doors might open up.",
+
+   "accreditation":"certificate from..",
+   "createdAt":"2020-04-26T07:00:42.609Z",
+   "updatedAt":"2020-04-26T10:19:44.919Z",
+   "__v":0,
+   "id":"5ea5319a21f5cd05a95f3b90"
+
+
+},
+{
+   "educator":
+      {
+         "confirmed":true,
+         "blocked":false,
+         "userType":"Educator",
+         "_id":"5ea52daf21f5cd05a95f3b8f",
+         "username":"rajpal",
+         "email":"raj9006@gmail.com",
+         "provider":"local",
+         "createdAt":"2020-04-26T06:43:59.810Z",
+         "updatedAt":"2020-04-26T06:44:00.277Z",
+         "__v":0,
+         "role":"5e847b79b49e847e2185f846",
+         "id":"5ea52daf21f5cd05a95f3b8f"
+      },
+   "_id":"5ea5319a21f5cd05a95f3b84",
+   "cardTitle":"Learn How To Make More Money With Filter Effect Creation",
+   "title":"How To Master Filter Effect Creation With The Best Filter Effect Creation Tips In Pictures",
+   "content": "The Social media is must for everyone nowadays and the filter effects on social media platforms are what we need. But have you’ve ever thought how to create filters on Facebook.? Not on Facebook , but on Instagram. Don’t worry we got your back. We know how to create filters on Instagram, Facebook, Snapchat as well.",
+
+  "titleTag":"Master Filter Effect Creation In Just A Few Hours!",
+  "descriptionTag":"The Social media is must for everyone nowadays and the filter effects on social media platforms are what we need. But have you’ve ever thought how to create filters on Facebook.? Not on Facebook , but on Instagram. Don’t worry we got your back. We know how to create filters on Instagram, Facebook, Snapchat as well.",
+  "keywordTag":"filter , effect, creation, snapchat, Instagram, facebook, kartik aaryan, celebrity, audience, engagement, filter effect creation",
+
+
+   "key":"Master Filter Effect Creation In Just A Few Hours",
+   "description":"<p>Did you know that there are thousands of awesome Instagram Stories filters hidden right inside the app?</p><p>Thanks to Instagram AR creators, there’s now tons of new filters and effects that can give your Instagram Stories photos and videos an upgraded and edited look. And with a wide-variety of tones, color grades and effects to choose from, it’s easy to pick a perfectly on-brand filter and start shooting – all without leaving the app!</p>",
+   "image":"../../../assets/images/courses/filter-creation.jpg",
+   "duration":"4 weeks ",
+   "days":"2 hours a week",
+  "effort":"5-6 hours per week",
+  "language":"English or hindi",
+  "certification":"Yes",
+  "price":"Rs.2500 ",
+  "expert":"Hemakshi Jani and Vedant Lotia",
+  "detailed_description":"<p>Did you know that there are thousands of awesome Instagram Stories filters hidden right inside the app? </p><p>Thanks to Instagram AR creators, there’s now tons of new filters and effects that can give your Instagram Stories photos and videos an upgraded and edited look.</p><p>And with a wide-variety of tones, color grades and effects to choose from, it’s easy to pick a perfectly on-brand filter and start shooting – all without leaving the app!</p> <p>So there’s a whole world of new Instagram Stories filters and AR effects waiting to be discovered! </p><p>The best thing about these AR filters and effects is just how quickly they can level up your Instagram content. </p><p> Without the need for any extra apps or subscriptions, you can tap into the Effects Gallery and use these filters to color correct your footage, add a cool grain or light leak, or help maintain your Instagram aesthetic on the go! </p> ",
+  "benefits":"<p>After learning how to create and publish your filter effect you’ll come to know how and what great heights you and your filter can reach…</p>",
+  "target_audience":"AR VR Developers or someone who wants to learn this skillset",
+  "topics":"<p>1.Installation</p><p> 2.Basic lighting</p><p> 3.Linking of accounts</p><p> 4.Testing</p><p> 5.Finishing off in style</p>",
+  "value_proposition":"<p>Augmented reality and social media these are the two never ending trends which we are going to have In our lives.</p><p>Social media is the way to reach out to target audience whenever or wherever the firm wants.</p><p>say it is shahid Kapoor or india’s first celeb kartik aaryan having his own filter effect on ig.</p><p>later on Vicky Kaushal and others joined the era of filter creation.</p><p>why.. what is there in filter creation that makes people and audience go mad…? Dive in and find it out yourself.</p>",
+  "student_category":"",
+  "outcomes":"Custom filter designs is what you can create on Instagram or snapchat for yourselves. ",
+
+   "accreditation":"certificate from..",
+   "createdAt":"2020-04-26T07:00:42.609Z",
+   "updatedAt":"2020-04-26T10:19:44.919Z",
+   "__v":0,
+   "id":"5ea5319a21f5cd05a95f3b90"
+
+
 }
+
+
 ]
 }

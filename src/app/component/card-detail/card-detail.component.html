@@ -117,22 +117,22 @@
 
     <ngb-tab title="Detailed Description" style="color:#00A79D ;">
       <ng-template ngbTabContent>
-        <p class="contain">{{course.detailed_description}}</p>
+        <p class="contain" [innerHTML]="course.detailed_description">{{course.detailed_description}}</p>
       </ng-template>
     </ngb-tab>
 
     <ngb-tab title="Course Topics" style="color:#00A79D ;" >
 
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.topics">
           {{course.topics}}
         </p>
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Efforts"  >
+    <ngb-tab title="Course Efforts"  >
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.efforts">
 
         {{course.efforts}}
 
@@ -141,9 +141,9 @@
     </ngb-tab>
 
 
-    <ngb-tab title="Expert">
+    <ngb-tab title="Course Expert">
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.expert">
 
         {{course.expert}}
 
@@ -151,9 +151,9 @@
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Target Audience" >
-      <ng-template ngbTabContent>
-        <p class="contain">
+    <ngb-tab title="Course Target Audience" >
+      <ng-template ngbTabContent >
+        <p class="contain" [innerHTML]="course.target_audience">
 
         {{course.target_audience}}
 
@@ -161,9 +161,9 @@
       </ng-template>
     </ngb-tab>
 
-    <ngb-tab title="Value Proposition"  >
+    <ngb-tab title="Course Value Proposition"  >
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.value_proposition">
 
         {{course.value_proposition}}
 
@@ -173,7 +173,7 @@
 
     <ngb-tab title="Student Category"  >
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.student_category">
 
         {{course.student_category}}
 
@@ -183,7 +183,7 @@
 
     <ngb-tab title="Benefits">
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.benefits">
 
         {{course.benefits}}
 
@@ -192,7 +192,7 @@
     </ngb-tab>
     <ngb-tab title="Outcomes">
       <ng-template ngbTabContent>
-        <p class="contain">
+        <p class="contain" [innerHTML]="course.outcomes">
 
         {{course.outcomes}}
 

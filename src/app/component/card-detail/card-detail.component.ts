@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { CourseService } from '../../course.service';
-import { Course } from '../../course';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgbTabChangeEvent } from '@ng-bootstrap/ng-bootstrap';
 import { Meta } from '@angular/platform-browser';
 import { Title } from '@angular/platform-browser';
+import { HttpClient } from '@angular/common/http';
+import { data } from 'jquery';
 
 @Component({
   selector: 'app-card-detail',
@@ -12,101 +12,76 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./card-detail.component.css']
 })
 export class CardDetailComponent implements OnInit {
-  course: Course = null;
-  courses:Course[] = [];
+ 
+  id = '';
+  sub_title = '';
+  key = '';
+  image = '';
+  sub_description = '';
+  duration = '';
+  days = '';
+  effort = '';
+  language = '';
+  certification = '';
+  price = '';
+  expert = '';
+  detailed_description ='';
+  benifits = '';
+  target_audience = '';
+  topics ='';
+  value_propostion = '';
+  student_category = '';
+  outcomes ='';
+  titletag = '';
+  descriptiontag = '';
+  keywordtag = '';
+  //userData: any;
   currentJustify = 'center';
 
-  constructor(private route: ActivatedRoute,private courseService:CourseService,private meta: Meta, private titleService: Title) {
-
-    // this.meta.addTag({ name: 'description', content: 'Online live courses for school students, college students, graduates, professionals for practical skill based training through CareerShala'});
-    // this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
-    // this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
-    // this.setTitle('CareerShala | Online Live Courses | Practical Skill Training');
-
+  constructor(private route: ActivatedRoute,private meta: Meta, private titleService: Title, private http:HttpClient) {
   }
+  getDetailCourses() {
+    return this.http.get<any>(`https://dashboard.careernaksha.com/courses/?key=${this.key}`);
+  }
+   ngOnInit(): void {
 
-    ngOnInit(): void {
-      this.route.params.subscribe(params => {
-      console.log('params- ');
-      console.log(params);
-
-      this.course = new Course();
-      this.course.key = params.key;
-      this.course.id = params.id;
-
-
-      this.courseService.getCourse(params.key).subscribe(response =>
-        {
-          this.courses = response.courses.map(item =>
-          {
-             let course = new Course();
-             course.id =  item.id;
-             course.title = item.title;
-             course.key= item.key;
-             course.description=  item.description;
-             course.duration=  item.duration;
-            course.days= item.days;
-            course.language=item.language;
-            course.certification=item.certification;
-            course.price=  item.price;
-            course.expert=  item.expert;
-            course.detailed_description=item.detailed_description;
-            course.benefits=item.benefits;
-            course.target_audience= item.target_audience;
-            course.topics=  item.topics;
-            course.value_proposition= item.value_proposition;
-
-            course.descriptionTag = item.descriptionTag;
-            course.keywordTag= item.keywordTag;
-            course.titleTag=  item.titleTag;
-            course.outcomes= item.outcomes;
-
-
-             //course.startDates = item.startDates;
-             //course.promoVideo=  item.promoVideo;
-             //course.promoImage=  item.promoImage;
-             //course.educator=  item.educator;
-             //course.requirements=  item.requirements;
-             //course.weeklyHours =  item.weeklyHours;
-             course.image =  item.image;
-             course.overview =  item.overview;
-             return course;
-            });
-            console.log('courses- ');
-            console.log(this.courses);
-            this.course=this.courses.filter(a => a.key == params.key)[0];
-            console.log('course- ');
-            console.log(this.course);
-
-
-            this.meta.updateTag(
-              { name: 'description', content:this.course.descriptionTag },
-              `name='description'`
-            );
-            this.meta.updateTag(
-              { name: 'keyword', content:this.course.keywordTag },
-              `name='keyword'`
-            );
-            this.meta.updateTag(
-              { name: 'title', content:this.course.titleTag },
-              `name='title'`
-            );
-           // this.meta.addTag({ name: 'description', content:'this.course.description' }, true);
-            //this.meta.addTag({ name: 'author', content: 'www.careernaksha.com' });
-           // this.meta.addTag({ name: 'keywords', content: 'online, live, courses, school, college, students, graduates, skill, training, careershala' });
-            this.setTitle(this.course.titleTag);
-
-        });
-      })
-   }
-
-   public setTitle( newTitle: string) {
-      this.titleService.setTitle( newTitle );
-      window.scroll(0, 0);
+      this.key = this.route.snapshot.params.key;
+      this.getDetailCourses().subscribe(data => {
+        console.log('---data Course detail---', data);
+        this.setTitle(data[0].titletag);
+        this.sub_title = data[0].sub_title;
+       // this.imageUrl = `https://dashboard.careernaksha.com${data[0].blog_image.url}`;
+        this.sub_description = data[0].sub_description ;
+        this.duration = data[0].duration;
+        this.days = data[0].days;
+        this.effort = data[0].effort;
+        this.benifits = data[0].benifits;
+        this.certification = data[0].certification;
+        this.language = data[0].language;
+        this.price = data[0].price;
+        this.expert = data[0].expert;
+        this.detailed_description = data[0].detailed_description;
+        this.target_audience = data[0].target_audience;
+        this.topics = data[0].topics;
+        this.value_propostion = data[0].value_proposition;
+        this.student_category = data[0].student_category;
+        this.outcomes = data[0].outcomes;
+        this.image = data[0].image;
+        //this.subimageUrl = `https://dashboard.careernaksha.com${data[0].blog_subimage.url}`;
+  //https://dashboard.careernaksha.com
+        this.titletag = data[0].titletag;
+        this.descriptiontag = data[0].descriptiontag;
+        this.keywordtag = data[0].keywordtag;
+  
+        //this.meta.updateTag({ name: 'description', content: this.titletag });
+        //this.meta.updateTag({ name: 'author', content: this.author});
+        this.meta.updateTag({ name: 'keywords', content: this.keywordtag });
+        this.meta.updateTag({ name: 'description', content: this.descriptiontag });
+        console.log(this.titletag);  
+      });
     }
-
-    scroll(){
+    public setTitle(titletag: string) {
+      this.titleService.setTitle(titletag);
       window.scroll(0, 0);
     }
   }
-

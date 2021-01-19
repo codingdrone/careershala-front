@@ -1,9 +1,9 @@
 
-<div class="container">
-<div class="course">
+<div class="container" >
+<div class="course" >
 
   <div class="row">
-    <h1 style="font-weight:200; font-weight: 500;" class="title">{{course.title}}</h1>
+    <h1 style="font-weight:200; font-weight: 500;" class="title">{{sub_title}}</h1>
   </div>
 
 
@@ -11,13 +11,13 @@
     <div class="col-md-5">
 
       <div class="row">
-          <!--<div class="col-md-4" style="margin-right:0px;"><p style="font-size:14px;font-weight:500;"> {{ course.date | date }}</p></div>-->
+          <!--<div class="col-md-4" style="margin-right:0px;"><p style="font-size:14px;font-weight:500;"> {{ date | date }}</p></div>-->
           <div class="col-md-3"></div>
       </div>
       <div class="row">
 
       <div class="row blog-content">
-        <p [innerHTML]="course.description"></p>
+        <p [innerHTML]="sub_description"></p>
       </div>
     </div>
     </div>
@@ -29,7 +29,7 @@
     <div class="col-md-6">
       <div class="container-2">
         <div class="row content-pic">
-          <div><img [src] = "course.image" class="img-responsive" /></div>
+          <div><img [src]="image" class="img-responsive" /></div>
         </div>
       </div>
 
@@ -53,7 +53,7 @@
         <div class="card-header">
             <h4 class="m-b-0 text-white">Duration</h4></div>
         <div class="card-body">
-            <p class="card-text">{{course.duration}}</p>
+            <p class="card-text">{{duration}}</p>
 
         </div>
     </div>
@@ -63,7 +63,7 @@
         <div class="card-header">
             <h4 class="m-b-0 text-white">Days</h4></div>
         <div class="card-body">
-            <p class="card-text"> {{course.days}} </p>
+            <p class="card-text"> {{days}} </p>
 
         </div>
     </div>
@@ -73,7 +73,7 @@
         <div class="card-header">
             <h4 class="m-b-0 text-white">Language</h4></div>
         <div class="card-body">
-            <p class="card-text">{{course.language}}</p>
+            <p class="card-text">{{language}}</p>
 
         </div>
     </div>
@@ -83,7 +83,7 @@
         <div class="card-header">
             <h4 class="m-b-0 text-white">Certification</h4></div>
         <div class="card-body">
-            <p class="card-text">{{course.certification}}</p>
+            <p class="card-text">{{certification}}</p>
 
         </div>
     </div>
@@ -94,7 +94,7 @@
         <div class="card-header">
             <h4 class="m-b-0 text-white">Offer Price</h4></div>
         <div class="card-body">
-            <p class="card-text">{{course.price}}</p>
+            <p class="card-text">{{price}}</p>
 
         </div>
     </div>
@@ -117,24 +117,24 @@
 
     <ngb-tab title="Detailed Description" style="color:#00A79D ;">
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.detailed_description">{{course.detailed_description}}</p>
+        <p class="contain" [innerHTML]="detailed_description">{{detailed_description}}</p>
       </ng-template>
     </ngb-tab>
 
     <ngb-tab title="Course Topics" style="color:#00A79D ;" >
 
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.topics">
-          {{course.topics}}
+        <p class="contain" [innerHTML]="topics">
+          {{topics}}
         </p>
       </ng-template>
     </ngb-tab>
 
     <ngb-tab title="Course Efforts"  >
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.efforts">
+        <p class="contain" [innerHTML]="efforts">
 
-        {{course.efforts}}
+        {{efforts}}
 
         </p>
       </ng-template>
@@ -143,9 +143,9 @@
 
     <ngb-tab title="Course Expert">
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.expert">
+        <p class="contain" [innerHTML]="expert">
 
-        {{course.expert}}
+        {{expert}}
 
         </p>
       </ng-template>
@@ -153,9 +153,9 @@
 
     <ngb-tab title="Course Target Audience" >
       <ng-template ngbTabContent >
-        <p class="contain" [innerHTML]="course.target_audience">
+        <p class="contain" [innerHTML]="target_audience">
 
-        {{course.target_audience}}
+        {{target_audience}}
 
         </p>
       </ng-template>
@@ -163,9 +163,9 @@
 
     <ngb-tab title="Course Value Proposition"  >
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.value_proposition">
+        <p class="contain" [innerHTML]="value_proposition">
 
-        {{course.value_proposition}}
+        {{value_proposition}}
 
         </p>
       </ng-template>
@@ -173,9 +173,9 @@
 
     <ngb-tab title="Student Category"  >
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.student_category">
+        <p class="contain" [innerHTML]="student_category">
 
-        {{course.student_category}}
+        {{student_category}}
 
         </p>
       </ng-template>
@@ -183,18 +183,18 @@
 
     <ngb-tab title="Benefits">
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.benefits">
+        <p class="contain" [innerHTML]="benefits">
 
-        {{course.benefits}}
+        {{benefits}}
 
         </p>
       </ng-template>
     </ngb-tab>
     <ngb-tab title="Outcomes">
       <ng-template ngbTabContent>
-        <p class="contain" [innerHTML]="course.outcomes">
+        <p class="contain" [innerHTML]="outcomes">
 
-        {{course.outcomes}}
+        {{outcomes}}
 
         </p>
       </ng-template>

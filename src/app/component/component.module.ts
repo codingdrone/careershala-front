@@ -25,13 +25,16 @@ import { ToastComponent } from './toast/toast.component';
 import { ToastsContainer } from './toast/toast-container';
 import { CardDetailComponent } from './card-detail/card-detail.component';
 
+
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forChild(ComponentsRoutes),
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
+    
+
   ],
   declarations: [
     NgbdpregressbarBasicComponent,
